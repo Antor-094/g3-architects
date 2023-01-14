@@ -1,0 +1,382 @@
+/* Google Font Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-font: 'Work Sans', sans-serif;
+    --color-choice1: #FFF4E7;
+    --color-choice2: #FFFFFF;
+    --color-choice3: #131313;
+    --color-choice4: #FF900E;
+    --color-choice5: #727272;
+    --color-choice6:#424242;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+/* --------------header section start---------------- */
+header {
+    width: 100%;
+
+    background-color: var(--color-choice1);
+}
+
+/*---------------- Nav bar start----------------- */
+
+nav {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+nav .nav-menu a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--color-choice3);
+}
+
+/*------------------------ Nav bar end------------ */
+
+/* ------------------Header banner section start---------- */
+
+.header-banner-section {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-title-text {
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 50px;
+    color: var(--color-choice3);
+}
+
+.header-title-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-choice5);
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.btn-primary {
+    padding: 20px 25px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+}
+
+.header-text-container {
+    width: 862px;
+    margin: 0 auto;
+}
+
+.header-banner-section img {
+    width: 1340px;
+    height: 650px;
+    margin: 50px auto;
+}
+
+/* ----------------------------------------------
+ -----------Header section ends-------------------
+ ------------------------------------------------- */
+
+/* -----------------------------------------------
+--------------Main section Start------------------
+-------------------------------------------------- */
+
+
+/* Features section start */
+
+.features-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+
+
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.feature-presentation-teams {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.feature-presentation-teams img {
+    border-radius: 8px;
+}
+
+
+
+.features-list-text {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.text-style1 {
+    color: var(--color-choice5);
+}
+
+.text-style2 {
+    color: var(--color-choice4);
+}
+
+.features-list-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-choice5);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* -----------Features List Container starts------ */
+
+.features-list-container{
+    
+    width: 1340px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 150px;
+
+}
+.features-list-container1{
+   display: flex;
+   align-items: center;
+   gap: 70px;
+}
+.features-list-points{
+   
+}
+.list-title-details{
+
+}
+.list-text{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--color-choice3);
+    border-left:5px solid var(--color-choice4) ;
+    padding-left: 8px;
+}
+.list-description-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-choice5);
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.list-card{
+   padding: 30px 33px;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+   margin-top: 28px;
+}
+.list-card-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-choice3);
+    margin-bottom: 10px;
+}
+.list-card-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-choice5);
+}
+.features-list-container img{
+    
+}
+
+.btn-div{
+  position: absolute;
+  left: 590px;
+  bottom: -50px;
+  
+}
+.fat-btn{
+    font-weight: 700;
+    font-size: 55px;
+    color: var(--color-choice2);
+    background-color: var(--color-choice4);
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+height: 150px;
+text-align: center;
+box-sizing: border-box;
+padding: 20px;
+
+}
+.fat-btn-span{
+    display: block;
+    font-weight: 500;
+    font-size: 25px;
+    color: var(--color-choice2);
+}
+
+/*------------------------------------- Features section ends-----------
+----------------------------------------------------------------------- */
+/* -------------------our last project section start-------------------- */
+
+
+.our-last-projects{
+  max-width: 1400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+.project-text{
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--color-choice3);
+    
+}
+.projects-container{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap: 28px;
+   grid-column-gap: 15px;
+   padding: 5px;
+}
+.project-cart{
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
+
+
+}
+.place{
+    font-size: 20px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.project-cart img{
+    height: 280px;
+    width: 370px;
+}
+/*----------------------- achievement section start--------------------- */
+
+.achievements-section{
+    max-width: 1300px;
+    
+    margin: 0 auto;
+}
+.some-fact-text{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--color-choice3);
+}
+.some-fact-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-choice5);
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+.achievements-container{
+   display: flex;
+   justify-content: space-around;
+   
+}
+.achievement-cart{
+   text-align: center;
+   border: 1px solid #FF900E;
+border-radius: 8px;
+padding: 25px;
+transition: width 3s 0.5s,height 2s,transform 3s;
+
+}
+.achievement-cart:hover{
+    width: 250px;
+    height: 200px;
+    transform: scale(0.5);
+}
+.total-number{
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--color-choice6);
+}
+.achievement-topic{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-choice5);
+}
+
+/*---------------- Achievement section ends------------- */
+
+/* -------------------Our sponspors section start-------------------------------- */
+
+.our-sponspors{
+   margin-top: 150px;
+   max-width: 1350px;
+   
+   margin: 0 auto;
+   margin-top: 180px;
+   text-align: center;
+   margin-bottom: 140px;
+}
+.sponspors-heading-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--color-choice3);
+    
+}
+.sponspors-heading-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-choice5);
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+.sopnspors-list{
+display: flex;
+justify-content: space-between;
+}
+.sponsor{
+
+}
+
+/* -------------sonspors section end---------- */
+
+/*--------------------------------- Main Section end----------------------------------------- */
+
+/* --------------------------------Footer section start-------------------- */
+
+footer{
+ max-width: 1350px;
+ background-color: var(--color-choice1);
+ text-align: center;
+ margin: 0 auto;
+ padding: 25px;
+ margin-bottom: 150px;
+}
+.copyright-text{
+font-weight: 400;
+font-size: 20px;
+color: var(--color-choice6);
+}
